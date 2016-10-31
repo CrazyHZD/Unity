@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		86516DCD1DC4A3F000525A45 /* addtarget.m in Sources */ = {isa = PBXBuildFile; fileRef = 86516DCC1DC4A3F000525A45 /* addtarget.m */; };
 		86533B601DBF083500BD4D75 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 86533B5F1DBF083500BD4D75 /* main.m */; };
 		86533B631DBF083500BD4D75 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 86533B621DBF083500BD4D75 /* AppDelegate.m */; };
 		86533B661DBF083500BD4D75 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 86533B651DBF083500BD4D75 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		86516DCB1DC4A3F000525A45 /* addtarget.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = addtarget.h; path = ../addtarget.h; sourceTree = "<group>"; };
+		86516DCC1DC4A3F000525A45 /* addtarget.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = addtarget.m; path = ../addtarget.m; sourceTree = "<group>"; };
 		86533B5B1DBF083500BD4D75 /* UIscrollview.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIscrollview.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		86533B5F1DBF083500BD4D75 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		86533B611DBF083500BD4D75 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -58,6 +61,8 @@
 		86533B5D1DBF083500BD4D75 /* UIscrollview */ = {
 			isa = PBXGroup;
 			children = (
+				86516DCB1DC4A3F000525A45 /* addtarget.h */,
+				86516DCC1DC4A3F000525A45 /* addtarget.m */,
 				86533B611DBF083500BD4D75 /* AppDelegate.h */,
 				86533B621DBF083500BD4D75 /* AppDelegate.m */,
 				86533B641DBF083500BD4D75 /* ViewController.h */,
@@ -153,6 +158,7 @@
 				86533B661DBF083500BD4D75 /* ViewController.m in Sources */,
 				86533B631DBF083500BD4D75 /* AppDelegate.m in Sources */,
 				86533B601DBF083500BD4D75 /* main.m in Sources */,
+				86516DCD1DC4A3F000525A45 /* addtarget.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

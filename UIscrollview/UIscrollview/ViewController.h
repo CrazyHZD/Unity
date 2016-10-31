@@ -7,6 +7,7 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "addtarget.h"
 
 @interface ViewController : UIViewController
 
