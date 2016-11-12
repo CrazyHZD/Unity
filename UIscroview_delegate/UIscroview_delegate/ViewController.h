@@ -1,15 +1,12 @@
 //
 //  ViewController.h
-//  UIscroview_squares
+//  UIscroview_delegate
 //
-//  Created by 柯达 on 16/10/31.
+//  Created by 柯达 on 16/11/12.
 //  Copyright © 2016年 keda. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
-
-#import "KD_squares.h"
-
 
 @interface ViewController : UIViewController
 

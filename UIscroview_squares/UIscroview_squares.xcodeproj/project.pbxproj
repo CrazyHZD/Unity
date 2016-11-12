@@ -13,6 +13,8 @@
 		8659DC4F1DC6D85000024D71 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8659DC4D1DC6D85000024D71 /* Main.storyboard */; };
 		8659DC511DC6D85000024D71 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8659DC501DC6D85000024D71 /* Assets.xcassets */; };
 		8659DC541DC6D85000024D71 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8659DC521DC6D85000024D71 /* LaunchScreen.storyboard */; };
+		8659DC5C1DC6DEB700024D71 /* KD_squares.xib in Resources */ = {isa = PBXBuildFile; fileRef = 8659DC5B1DC6DEB700024D71 /* KD_squares.xib */; };
+		8659DC5F1DC6DEEF00024D71 /* KD_squares.m in Sources */ = {isa = PBXBuildFile; fileRef = 8659DC5E1DC6DEEF00024D71 /* KD_squares.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +28,9 @@
 		8659DC501DC6D85000024D71 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8659DC531DC6D85000024D71 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8659DC551DC6D85000024D71 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8659DC5B1DC6DEB700024D71 /* KD_squares.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = KD_squares.xib; sourceTree = "<group>"; };
+		8659DC5D1DC6DEEF00024D71 /* KD_squares.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = KD_squares.h; sourceTree = "<group>"; };
+		8659DC5E1DC6DEEF00024D71 /* KD_squares.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = KD_squares.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,10 +67,9 @@
 				8659DC481DC6D85000024D71 /* AppDelegate.m */,
 				8659DC4A1DC6D85000024D71 /* ViewController.h */,
 				8659DC4B1DC6D85000024D71 /* ViewController.m */,
-				8659DC4D1DC6D85000024D71 /* Main.storyboard */,
-				8659DC501DC6D85000024D71 /* Assets.xcassets */,
-				8659DC521DC6D85000024D71 /* LaunchScreen.storyboard */,
-				8659DC551DC6D85000024D71 /* Info.plist */,
+				8659DC5D1DC6DEEF00024D71 /* KD_squares.h */,
+				8659DC5E1DC6DEEF00024D71 /* KD_squares.m */,
+				8659DC5B1DC6DEB700024D71 /* KD_squares.xib */,
 				8659DC441DC6D85000024D71 /* Supporting Files */,
 			);
 			path = UIscroview_squares;
@@ -74,6 +78,10 @@
 		8659DC441DC6D85000024D71 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				8659DC501DC6D85000024D71 /* Assets.xcassets */,
+				8659DC521DC6D85000024D71 /* LaunchScreen.storyboard */,
+				8659DC551DC6D85000024D71 /* Info.plist */,
+				8659DC4D1DC6D85000024D71 /* Main.storyboard */,
 				8659DC451DC6D85000024D71 /* main.m */,
 			);
 			name = "Supporting Files";
@@ -138,6 +146,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8659DC541DC6D85000024D71 /* LaunchScreen.storyboard in Resources */,
+				8659DC5C1DC6DEB700024D71 /* KD_squares.xib in Resources */,
 				8659DC511DC6D85000024D71 /* Assets.xcassets in Resources */,
 				8659DC4F1DC6D85000024D71 /* Main.storyboard in Resources */,
 			);
@@ -151,6 +160,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				8659DC4C1DC6D85000024D71 /* ViewController.m in Sources */,
+				8659DC5F1DC6DEEF00024D71 /* KD_squares.m in Sources */,
 				8659DC491DC6D85000024D71 /* AppDelegate.m in Sources */,
 				8659DC461DC6D85000024D71 /* main.m in Sources */,
 			);
